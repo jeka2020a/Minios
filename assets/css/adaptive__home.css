@@ -16,10 +16,10 @@
     }
 }
 @media (max-width: 900px) {
-    .grid__box {
+    /*.grid__box {
         display: flex;
         justify-content: center;
-    }
+    }*/
     .category__block {
         flex-direction: column;
     }

@@ -1,0 +1,70 @@
+@media (max-width: 1200px) {
+    .container__flex-start {
+        flex-direction: column;
+    }
+    .catalog__filter {
+        display: none;
+        position: fixed; 
+        height: 100%;
+        overflow: scroll;
+        overflow-y: scroll;
+    }
+    .catalog__future {
+        display: none;
+    }
+    .catalog__box {
+        margin: 0 auto;
+        width: 90%;
+    }
+    .catalog__form {
+        max-width: 100%;
+    }
+    .catalog__open-filter {
+        display: block;
+    }
+    .container__flexwrap {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    .catalog__cars {
+        margin-left: 0px;
+        max-width: max-content;
+    }
+}
+@media (max-width: 1100px)
+{
+    .slider__container::after {
+        display: none;
+    }
+    .slider__container::before {
+        display: none;
+    }
+}
+@media (max-width: 650px)
+{
+    .catalog__box-link {
+        width: 50%;
+        border: 2px solid #FFF;
+    }
+}
+@media (max-width: 500px)
+{
+    .slider__item-link {
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 200px;
+    }
+}
+@media (max-width: 500px)
+{
+    .slider__item-link {
+        margin-left: 0px;
+        margin-right: 0px;
+        max-width: 200px;
+    }
+    .display__none {
+        display: none;
+    }
+}

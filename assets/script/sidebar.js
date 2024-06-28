@@ -1,4 +1,3 @@
-//header__burger
 
 document.addEventListener('DOMContentLoaded', () => { 
 
