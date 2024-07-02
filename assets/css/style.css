@@ -946,10 +946,11 @@ li {
     position: relative;
 }
 .main__list {
-    display: none;
+    padding-left: 0;
 }
-.main__li:hover .main__list {
-    display: block;
+
+.main__list {
+    display: none;
 }
 .main__li::after {
     content: " ";
@@ -962,6 +963,17 @@ li {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 500ms;
+}
+.main__list>.main__title {
+    font-weight: 700;
+    background-color: #eaeaea;
+}
+.main__li:hover .main__list {
+    display: block;
+}
+.main__li:hover:after {
+    transform: rotate(90deg);
 }
 .header__sidebar-close {
     display: none;
