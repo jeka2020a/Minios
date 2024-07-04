@@ -284,6 +284,9 @@ p , a {
     align-items: center;
     max-width: 400px;
 }
+.product__delivery-text {
+    padding-left: 10px;
+}
 .product__delivery-img {
     width: 30px;
 }
