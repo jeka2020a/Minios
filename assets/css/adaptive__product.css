@@ -24,6 +24,9 @@
         border-left: none;
         max-width: none;
     }
+    .review {
+        width: 70%;
+    }
 }
 @media (max-width: 650px) {
     .product__form-flex {
@@ -42,5 +45,8 @@
     }
     .product__pay-system {
         display: none;
+    }
+    .review {
+        width: 100%;
     }
 }

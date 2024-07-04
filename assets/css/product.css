@@ -340,16 +340,7 @@ p , a {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
-}/*
-.number {
-    max-width: 150px;
-    border: 1px solid #ececec;
-    outline: none;
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    align-items: center;
-}*/
+}
 .number-minus {
     background-color: #FFF;
     border: none;
