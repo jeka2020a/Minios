@@ -140,8 +140,6 @@ p , a {
     font-size: 14px;
     font-weight: 500;
 }
-.review__text-box {
-}
 .review__grade-box {
     display: flex;
     justify-content: space-between;
