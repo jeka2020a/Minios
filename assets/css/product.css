@@ -24,6 +24,9 @@ p , a {
 	-webkit-appearance: textfield;
 	appearance: textfield;
 }
+.number button {
+    color: #000;
+}
 .number input[type="number"]::-webkit-outer-spin-button,
 .number input[type="number"]::-webkit-inner-spin-button {
 	display: none;

@@ -63,7 +63,24 @@
     .review__close2 {
         display: block;
     }
+
+
+    .review__form-box {
+        flex-direction: column;
+    }
+    .review__form-input {
+        display: block;
+        width: 100%;
+    }
+    .review {
+        padding: 25px 10px 10px 10px;
+    }
+    .review__form-button {
+        width: 100%;
+        max-width: 100%;
+    }
 }
+/*
 @media (max-width: 400px) {
     .review__form-box {
         flex-direction: column;
