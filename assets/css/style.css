@@ -499,6 +499,7 @@ li {
     width: 460px;
     min-height: 600px;
     display: flex;
+    position: relative;
     flex-direction: column;
     justify-content: space-between;
     background-size: 150%;
@@ -583,6 +584,7 @@ li {
     filter: invert(1);
 }
 .category__item {
+    z-index: -1;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -590,11 +592,24 @@ li {
     background-color: #ffffff;
     align-items: center;
     max-width: 220px;
-    position: relative;
-    top: 25px;
-    left: 20px;
-    opacity: 0;
+    position: absolute;
+    top: 30%;
+    left: 10%;
 }
+.category__item2 {
+    z-index: -1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px 20px 20px;
+    background-color: #ffffff;
+    align-items: center;
+    max-width: 220px;
+    position: absolute;
+    top: 5%;
+    left: 40%;
+}
+/*
 .category__item::before {
     content: "";
     background-image: url("../image/design/triangle.png");
@@ -605,8 +620,18 @@ li {
     width: 20px;
     position: absolute;
     top: -15px;
-    
 }
+.category__item2::before {
+    content: "";
+    background-image: url("../image/design/triangle.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    top: -15px;
+}*/
 .category__item-img {
     width: 200px;
     height: 240px;
