@@ -1,0 +1,107 @@
+
+.page__cart-box {
+    border-bottom: 3px solid #ffffff00;
+    transition: 500ms;
+}
+.page__cart-box:hover {
+    border-bottom: 3px solid #FFF;
+}
+.checkout-page {
+    border-bottom: 3px solid #ffffff;
+}
+.billing__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-bottom: 100px;
+}
+.billing__login , .billing__coupon {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 40%;
+}
+.billing__icon {
+    width: 40px;
+}
+.billing__not-link {
+    font-weight: 600;
+    border-bottom: 1px solid #000;
+    padding-bottom: 2px;
+    cursor: pointer;
+    transition: 500ms;
+}
+.billing__not-link:hover {
+    color: #5f1a0e;
+}
+.billing__form {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    margin-bottom: 100px;
+}
+.billing__form-box {
+    width: 60%;
+}
+.billing__title {
+    font-weight: 400;
+}
+.billing__input , select{
+    width: 100%;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    border-bottom: 1px solid #eddeee;
+    padding: 15px;
+    outline: none;
+}
+.billing__create-acc {
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 25px;
+    background-color: #000;
+    color: #FFF;
+    text-align: center;
+}
+.billing__textarea {
+    width: 100%;
+    border: 1px solid #eddeee;
+}
+.billing__listbox {
+    width: 30%;
+    padding: 25px;
+    border: 1px solid #000;
+    height: 750px;
+}
+.billing__item {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #eddeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+}
+.billing__type-pay {
+    padding: 10px;
+    border: 1px solid #eddeee;
+}
+.billing__button {
+    width: 100%;
+    border: 1px solid #000;
+    background-color: #FFF;
+    font-weight: 600;
+    padding: 20px;
+    transition: 500ms;
+    cursor: pointer;
+}
+.billing__button:hover {
+    background-color: #5f1a0e;
+    color: #FFF;
+    border-color: #5f1a0e;
+}
+.billing__type-payment {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}

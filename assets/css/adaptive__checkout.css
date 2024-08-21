@@ -1,0 +1,24 @@
+@media (max-width: 1100px)
+{
+    .billing__login , .billing__coupon {
+        width: 48%;
+    }
+}
+@media (max-width: 900px)
+{
+    .billing__block {
+        flex-direction: column;
+    }
+    .billing__login , .billing__coupon {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 25px;
+    }
+    .billing__form {
+        flex-direction: column;
+    }
+    .billing__form-box , .billing__listbox {
+        width: 100%;
+    }
+}

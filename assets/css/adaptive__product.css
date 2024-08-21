@@ -7,6 +7,12 @@
         border-left: 15px solid #FFF;
     }
 }
+@media (max-width: 1200px) {
+    /*.cart-sidebar {
+        width: 50%;
+        right: -50%;
+    }*/
+}
 @media (max-width: 1000px) {
     .product__flex {
         display: flex;
@@ -79,6 +85,14 @@
         width: 100%;
         max-width: 100%;
     }
+
+
+}
+@media (max-width: 600px) {
+    /*.cart-sidebar {
+        width: 70%;
+        right: -70%;
+    }*/
 }
 /*
 @media (max-width: 400px) {

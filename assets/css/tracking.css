@@ -1,0 +1,41 @@
+.page__cart-box {
+    border-bottom: 3px solid #ffffff00;
+    transition: 500ms;
+}
+.page__cart-box:hover {
+    border-bottom: 3px solid #FFF;
+}
+.tracking-page {
+    border-bottom: 3px solid #FFF;
+}
+.tracking__form {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+.tracking__text {
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.tracking__input {
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.tracking__button {
+    width: 100%;
+    background-color: #FFF;
+    color: #000;
+    border: 1px solid #000;
+    padding: 20px;
+    font-size: 15px;
+    margin-top: 25px;
+    transition: 500ms;
+}
+.tracking__button:hover {
+    color: #FFF;
+    background-color: #5f1a0e;
+    cursor: pointer;
+}

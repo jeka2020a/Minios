@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="none" type="image/x-icon">
     <link rel="stylesheet" href="assets/css/category.css">
     <link rel="stylesheet" href="assets/css/product.css">
+    <link rel="stylesheet" href="assets/css/sign-in__popup.css">
     <link rel="stylesheet" href="assets/css/adaptive__category.css">
     <link rel="stylesheet" href="assets/css/adaptive__product.css">
     <link rel="stylesheet" href="assets/css/slick.css">
@@ -47,11 +48,98 @@
     </section>
 
 
+    <div class="sign-in__shadow">
+        <div class="sign-in">
+            <div class="sign-in__block">
+                <div class="sign-in__top">
+                    <div class="sign-in__top-box">
+                        <div class="sign-in__close">
+
+                        </div>
+                    </div>
+                    <div class="sign-in__top-box">
+                        <h2 class="sign-in__title title">
+                            SIGN IN
+                        </h2>
+                    </div>
+                </div>
+                <form action="" class="sign-in__form">
+                    <input type="text" class="sign-in__form-element sign-in__input" placeholder="   Name*">
+                    <input type="text" class="sign-in__form-element sign-in__input" placeholder="   Password*">
+                    <a href="" class="sign-in__link">Lost yout password?</a>
+                    <button class="sign-in__form-element sign-in__button">SIGN IN</button>
+                    <button class="sign-in__form-element sign-in__create-acc">CREATE AN ACCOUT</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="cart-sidebar">
+        <div class="cart-sidebar__top">
+            <h2 class="cart-sidebar__title title">
+                Shopping Cart (1)
+            </h2>
+            <div class="cart-sidebar__close"></div>
+            <div class="cart-sidebar__close1"></div>
+            <div class="cart-sidebar__close2"></div>
+        </div>
+        <div class="cart-sidebar__products">
+            <div class="cart-sidebar__item">
+                <div class="cart-sidebar__imgbox">
+                    <img class="cart-sidebar__img" src="assets/image/look-3.jpg" alt="">
+                </div>
+                <div class="cart-sidebar__options">
+                    <p class="cart-sidebar__name bold">
+                        Brushed Weekend Hoodie
+                    </p>
+                    <div class="cart-sidebar__actions">
+                        <div class="cart-sidebar__count">
+                            <div class="cart-sidebar__number">
+                                <button class="cart-sidebar-minus" type="button" onclick="this.nextElementSibling.stepDown(); this.nextElementSibling.onchange();">-</button>
+                                <input class="cart-sidebar__input" type="number" min="0" value="1" readonly>
+                                <button class="cart-sidebar-plus" type="button" onclick="this.previousElementSibling.stepUp(); this.previousElementSibling.onchange();">+</button>
+                            </div>
+                            <div class="cart-sidebar__price bold">
+                                150.00$
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <a href="" class="cart-sidebar__remove-product">
+                        Remove
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="cart-sidebar__bottom">
+            <div class="cart-sidebar__total-price">
+                <p class="cart-sidebar__total-text bold">
+                    Subtotal
+                </p>
+                <p class="cart-sidebar__total-text bold">
+                    150.00$
+                </p>
+            </div>
+            <div class="cart-sidebar__textbox">
+                <p class="cart-sidebar__text">
+                    Spend <span class="bold">350$</span> more and get <span class="bold">free shiping!</span>
+                </p>
+            </div>
+            <div class="cart-sidebar__box">
+                <a href="" class="cart-sidebar__cart">VIEW CART</a>
+                <a href="" class="cart-sidebar__checkout">CHECK OUT</a>
+            </div>
+        </div>
+    </div>
+
+
+
 
 
 
     <div class="review__shadow">
     </div>
+
 
     <div class="review">
         <div class="review__block">
@@ -825,13 +913,13 @@
                     MINIOS.
                 </a> 
                 <div class="header__client-box">
-                    <a href="" class="header__user-panel header__client-link">
+                    <a href="javascript:void(0)" class="header__user-panel header__client-link">
                         <img src="assets/image/design/user.png" alt="" class="header__user-img">
                     </a>
                     <a href="" class="header__user-like header__client-link">
                         <img src="assets/image/design/heart.png" alt="" class="header__like-img">
                     </a>
-                    <a href="" class="header__user-shop header__client-link">
+                    <a href="javascript:void(0)" class="header__user-shop header__client-link">
                         <img src="assets/image/design/shop.png" alt="" class="header__shop-img">
                     </a>
                 </div>
@@ -2254,11 +2342,15 @@
             </p>
         </div>
     </footer>
+
+
     <script src="assets/script/jquery.min.js"></script>
     <script src="assets/script/slick.min.js"></script>
     <script src="assets/script/productslider.js"></script>
     <script src="assets/script/review__add.js"></script>
+    <script src="assets/script/sign-in.js"></script>
     <script src="assets/script/switch.js"></script>
+    <script src="assets/script/cart__sidebar.js"></script>
     <script src="assets/script/popup.js"></script>
     <script src="assets/script/sidebar.js"></script>
     <script src="assets/script/slider_bottom.js"></script>

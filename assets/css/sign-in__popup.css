@@ -1,0 +1,112 @@
+.sign-in__shadow {
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.368);
+    backdrop-filter: blur(2px);
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+.sign-in {
+    max-width: 450px;
+    margin: 0 auto;
+    z-index: 2;
+    margin-top: 120px;
+    height: 70%;
+    background-color: #FFF;
+}
+.sign-in__block {
+}
+.sign-in__top {
+    width: 100%;
+    background-image: url("../image/sing-in.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px 25px 40px 25px;
+    margin-bottom: 25px;
+}
+.sign-in__form-element {
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    font-family: "Roboto", sans-serif;
+    cursor: pointer;
+}
+.sign-in__button {
+    color: #FFF;
+    background-color: black;
+    border: none;
+}
+.sign-in__create-acc {
+    color: #FFF;
+    background-color: #343434;
+    border: none;
+}
+.sign-in__close {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px #00000036;
+    background-color: #FFF;
+    cursor: pointer;
+    position: relative;
+    margin-left: auto;
+}
+.sign-in__close::after {
+    content: " ";
+    position: absolute;
+    background-image: url("../image/design/line1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 2px;
+    top: 25%;
+    left: 47.5%;
+    transform: rotate(45deg);
+    transition: 400ms;
+}
+.sign-in__close::before {
+    content: " ";
+    position: absolute;
+    background-image: url("../image/design/line1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 20px;
+    width: 2px;
+    top: 25%;
+    left: 47.5%;
+    transform: rotate(-45deg);
+    transition: 400ms;
+}
+.sign-in__close:hover:after {
+    transform: rotate(90deg);
+}
+.sign-in__close:hover:before {
+    transform: rotate(90deg);
+}
+.sign-in__title {
+    font-size: 15px;
+}
+.sign-in__form {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 25px;
+    margin: 0 auto;
+}
+.sign-in__input {
+    border: 1px solid #e9e9e9;
+}
+.sign-in__link {
+    margin-bottom: 20px;
+    color: black;
+    font-weight: 600;
+    font-family: Roboto;
+    text-decoration: underline;
+}
